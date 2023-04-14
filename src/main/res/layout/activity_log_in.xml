@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:textAlignment="gravity"
+    tools:context=".logIn">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:text="@string/safeme"
+        android:textColor="#5E35B1"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="138dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email_phone_nubmer"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="#1565C0"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="#1565C0"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:minHeight="48dp"
+        android:text="@string/log_in"
+        android:textColor="@color/purple_700"
+        android:textColorHint="@color/white"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:id="@+id/registerLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:baselineAligned="false"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/don_t_have_an_id_register"
+        android:textColor="@color/purple_700"
+        android:textColorHint="@color/white"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:baselineAligned="false"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/forgot_password"
+        android:textColor="@color/purple_700"
+        android:textColorHint="@color/white"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+
+</LinearLayout>

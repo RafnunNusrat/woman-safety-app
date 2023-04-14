@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">safeMe</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="safeme">SafeMe</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">password</string>
+    <string name="log_in">Log In</string>
+    <string name="Already_have_an_id_log_in" translatable="false">Already have an id?<a><b><i> Log In</i></b></a></string>
+    <string name="don_t_have_an_id_register" translatable="false">Don\'t have an id?<a><b><i> Register</i></b></a></string>
+    <string name="register">register</string>
+    <string name="welcome">Welcome to <i><b>SafeMe</b></i></string>
+    <string name="welcome_msg">Please select an option from below. \n\nSo that, we can provide you the best help service depending on your needs.</string>
+    <string name="elder_citizen">Elder Citizen</string>
+    <string name="woman">woman</string>
+    <string name="child">child</string>
+    <string name="special_need">Special Need</string>
+    <string name="email_phone_nubmer">Email / Phone Nubmer</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="logout">LogOut</string>
+    <string name="todo">TO GET HELP PRESS THE BUTTON</string>
+    <string name="add_contacts">Add Contacts</string>
+    <string name="select_your_alert_preference">Select your alert preference</string>
+    <string name="select_claming_music">Select Claming Music</string>
+    <string name="select_clamming_music">select_clamming_music</string>
+    <string name="set_medicine_time">Set Medicine Time</string>
+    <string name="done">done</string>
+    <string name="delete">delete</string>
+    <string name="view">view</string>
+    <string name="add">add</string>
+
+</resources>

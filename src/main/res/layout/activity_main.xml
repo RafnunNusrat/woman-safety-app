@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:textAlignment="gravity"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:text="@string/welcome"
+        android:textColor="#5E35B1"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/welcomeMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/welcome_msg"
+        android:textColor="#0D47A1"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/elderCitizen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/elder_citizen"
+        android:textColor="#0D47A1"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/woman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/woman"
+        android:textColor="#0D47A1"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/child"
+        android:textColor="#0D47A1"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/specialNeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/special_need"
+        android:textColor="#0D47A1"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>
